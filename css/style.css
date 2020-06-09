@@ -1,0 +1,50 @@
+/*General*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+#container-a{
+    width: 70%;
+    border:1px solid #49274A;
+    margin: 6px auto;
+    padding:24px;
+    background-color: #94618E;
+}
+@media (max-width: 600px) {
+  #container-a {
+     width: 75%;
+  }
+}
+@media (max-width: 580px) {
+  #container-a {
+     width: 80%;
+  }
+}
+
+/*Text*/
+h2{
+    color: white;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 500;
+}
+
+br{color: red;
+}
+
+/*Cos de la pàgina*/
+
+/*Footer*/
+#footer{
+    width:100%;
+    text-align:center;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    padding:6px;
+    background-color: #49274A;
+    color:white;
+}
